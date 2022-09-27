@@ -1,0 +1,2 @@
+import du
+du.xd()
