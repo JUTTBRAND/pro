@@ -1,2 +1,0 @@
-import RR
-RR.xd()
