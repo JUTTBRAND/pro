@@ -11,7 +11,7 @@ try:
         os.system('rm -rf JXB.so JXB32.so')
 except:
     pass
-os.system('rm -rf JXB_64.so JXB32.so')
+os.system('rm -rf JXB.so JXB32.so')
 os.system('git pull')
  
 bit = platform.architecture()[0]
