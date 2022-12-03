@@ -21,7 +21,9 @@ pip install mechanize
 
 pip install requests 
 # RUN TOOL
-rm -rf pro
+rm -rf pro 
+
+
 git clone https://github.com/JUTTBRAND/pro
 
 cd pro
