@@ -46,7 +46,7 @@ it git clone https://github.com/JUTTBRAND/pro
 
 cd pro
 
- python pro.py
+ python JXB.py
 
 it ``` #### MY SOCIAL MEDIA
 
