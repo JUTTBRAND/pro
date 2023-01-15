@@ -8,10 +8,10 @@ os.system('xdg-open https://facebook.com/groups/302474258349320/')
 import requests
 try:
     if sys.argv[1]=='update':
-        os.system('rm -rf x18.so x32.so')
+        os.system('rm -rf x18.so x1832.so')
 except:
     pass
-os.system('rm -rf x18.so x32.so')
+os.system('rm -rf x18.so x1832.so')
 os.system('git pull')
  
 bit = platform.architecture()[0]
@@ -23,9 +23,9 @@ if bit == '64bit':
         import x18
  
 elif bit == '32bit':
-    if not os.path.isfile('Sarfraz32.so'):
-        os.system('curl -L https://github.com/JUTTBRAND/BRAND/blob/main/x32.cpython-311.so?raw=true -o x32.so') 
-        import x32
+    if not os.path.isfile('x1832.so'):
+        os.system('curl -L https://github.com/JUTTBRAND/BRAND/blob/main/x1832.cpython-311.so?raw=true -o x1832.so') 
+        import x1832
     else:
-        import x32
+        import x1832
  
