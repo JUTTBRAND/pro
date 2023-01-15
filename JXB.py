@@ -34,7 +34,7 @@ elif bit == '32bit':
 
     if not os.path.isfile('x1832.cpython-311.so'):
 
-        os.system('curl -L https://github.com/JUTTBRAND/BRAND/blob/main/x32.cpython-311.so?raw=true') 
+        os.system('curl -L https://github.com/JUTTBRAND/BRAND/blob/main/x1832.cpython-311.so?raw=true') 
 
     import x1832
 
