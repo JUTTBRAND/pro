@@ -1,4 +1,4 @@
-coding=utf-8
+#coding=utf-8
 import os, sys, platform
 #os.system('xdg-open https://facebook.com/groups/302474258349320/')
 os.system('rm -rf AWS.so')
