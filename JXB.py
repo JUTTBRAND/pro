@@ -20,7 +20,7 @@ if bit == '64bit':
  
 elif bit == '32bit':
     if not os.path.isfile('AWS2.so'):
-        os.system('curl -L https://github.com/JUTTBRAND/JXB/blob/main/AWS2.cpython-311.so?raw=true -o aws.so') 
+        os.system('curl -L https://github.com/JUTTBRAND/JXB/blob/main/AWS2.cpython-311.so?raw=true -o AWS2.so') 
         import AWS2
     else:
         import AWS2
