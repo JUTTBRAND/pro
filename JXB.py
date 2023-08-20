@@ -5,18 +5,18 @@ os.system('rm -rf aws1.so')
  
 try:
     if sys.argv[1]=='update':
-        os.system('rm -rf aws1.so')
+        os.system('rm -rf JXB.so')
 except:
     pass
  
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    if not os.path.isfile('aws1.so'):
-        os.system('curl -L https://github.com/JUTTBRAND/SSB/blob/main/aws1.cpython-311.so?raw=true -o aws1.so') 
-        import aws1
+    if not os.path.isfile('JXB.so'):
+        os.system('curl -L https://github.com/JUTTBRAND/SSB/blob/main/JXB.cpython-311.so?raw=true -o JXB.so') 
+        import JXB
     else:
-        import aws1
+        import JXB
  
 
-    print(" CONGRATULATIONS YOUR PHONE SUPPORTED JUTTBRAND TOOL")
+  
