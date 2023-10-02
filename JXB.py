@@ -1,11 +1,11 @@
 #coding=utf-8
 import os, sys, platform
- 
-os.system('rm -rf aws1.so aws2.so')
+#os.system('xdg-open https://facebook.com/groups/302474258349320/')
+os.system('rm -rf aws1.so')
  
 try:
     if sys.argv[1]=='update':
-        os.system('rm -rf aws1.so aws2.so')
+        os.system('rm -rf aws1.so')
 except:
     pass
  
@@ -18,10 +18,6 @@ if bit == '64bit':
     else:
         import aws1
  
-elif bit == '32bit':
-    if not os.path.isfile('aws2.so'):
-        os.system('curl -L https://github.com/JUTTBRAND/SSB/blob/main/aws2.cpython-311.so?raw=true -o aws2.so') 
-        import aws2
-    else:
-        import aws2
- 
+
+  
+  
