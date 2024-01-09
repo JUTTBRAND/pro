@@ -1,11 +1,11 @@
 #coding=utf-8
 import os, sys, platform
  
-os.system('rm -rf aws1.so')
+os.system('rm -rf aws1.so aws32.so')
  
 try:
     if sys.argv[1]=='update':
-        os.system('rm -rf aws1.so')
+        os.system('rm -rf aws1.so aws32.so')
 except:
     pass
  
@@ -19,4 +19,11 @@ if bit == '64bit':
         import aws1
  
 elif bit == '32bit':
-    print(" 32 bit coming soon ")        
+    if not os.path.isfile('aws32.so'):
+        os.system('curl -L https://github.com/JUTTBRAND/SSB/blob/main/aws32.cpython-311.so?raw=true -o aws32.so') 
+        import aws32
+    else:
+        import aws32
+ 
+ 
+ 
